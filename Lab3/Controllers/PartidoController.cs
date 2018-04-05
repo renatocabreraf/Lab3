@@ -216,7 +216,7 @@ namespace Lab3.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            Partido cg = db.listaNoPartido.Find(x => x.noPartido == id);
+             Partido cg = db.listaNoPartido.Find(x => x.noPartido == id);
 
             if (cg == null)
             {
