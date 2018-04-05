@@ -1,0 +1,27 @@
+﻿{
+    ViewBag.Title = "Laboratorio 3, Estructura de Datos I";
+}
+
+<div class="jumbotron">
+    <h1>Laboratorio 3</h1>
+    <p class="lead">Renato José Cabrera Figueroa  1010617</p>
+    <p class="lead">José Carlos Herrera Franco 1007217 </p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Insertar datos manuales</h2>
+        <p>@Html.ActionLink("Insertar por numero", "Create", "Partido")</p>
+        <p>@Html.ActionLink("Insertar por fecha", "Create", "Partido")</p>
+        <h2>Insertar datos Json</h2>
+        <p>@Html.ActionLink("Insertar por Json", "Create", "CargaPartido")</p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Mostrar Recorridos En Orden</h2>
+        <p>@Html.ActionLink("Numeros Partido", "IndexNumero", "Partido")</p>
+        <p>@Html.ActionLink("Fecha Partido", "IndexFecha", "Partido")</p>
+        <p>@Html.ActionLink("Numeros Partido Json", "IndexPartido", "CargaPartido")</p>
+        <p>@Html.ActionLink("Fecha Partido Json", "IndexFecha", "CargaPartido")</p>
+    </div>
+
+</div>
